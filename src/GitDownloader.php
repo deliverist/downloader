@@ -42,6 +42,15 @@
 
 
 		/**
+		 * @return string
+		 */
+		public function getLabel()
+		{
+			return $this->url . ' (' . $this->branch . ')';
+		}
+
+
+		/**
 		 * @param  string
 		 * @return void
 		 * @throws GitDownloaderException
