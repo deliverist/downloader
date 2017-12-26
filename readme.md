@@ -1,6 +1,18 @@
 
 # Deliverist\Downloader
 
+
+## Installation
+
+[Download a latest package](https://github.com/deliverist/downloader/releases) or use [Composer](http://getcomposer.org/):
+
+```
+composer require deliverist/downloader
+```
+
+`Deliverist\Downloader` requires PHP 5.4.0 or later.
+
+
 ## Usage
 
 ### GitDownloader
@@ -14,19 +26,6 @@ $downloader = new GitDownloader('https://github.com/deliverist/downloader.git', 
 $downloader->download('/path/to/destination/directory');
 
 ```
-
-
-Installation
-------------
-
-[Download a latest package](https://github.com/deliverist/downloader/releases) or use [Composer](http://getcomposer.org/):
-
-```
-composer require [--dev] deliverist/downloader
-```
-
-`Deliverist\Downloader` requires PHP 5.4.0 or later.
-
 
 ------------------------------
 
