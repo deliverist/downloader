@@ -64,6 +64,7 @@
 			$result = $runner->run(array(
 				$this->gitExecutable,
 				'clone',
+				'--depth' => 50,
 				'--branch' => $this->branch,
 				$this->url,
 				$directory,
