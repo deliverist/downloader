@@ -1,6 +1,8 @@
 
 # Deliverist\Downloader
 
+<a href="https://www.janpecha.cz/donate/"><img src="https://buymecoffee.intm.org/img/donate-banner.v1.svg" alt="Donate" height="100"></a>
+
 
 ## Installation
 
