@@ -61,14 +61,14 @@
 			@mkdir($directory, 0777, TRUE);
 
 			$runner = new Runner($directory);
-			$result = $runner->run(array(
+			$result = $runner->run([
 				$this->gitExecutable,
 				'clone',
 				'--depth' => 50,
 				'--branch' => $this->branch,
 				$this->url,
 				$directory,
-			));
+			]);
 
 			if (!$result->isOk()) {
 				throw new GitDownloaderException("Cloning of '{$this->url}' failed.");
