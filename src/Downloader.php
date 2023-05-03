@@ -3,7 +3,7 @@
 	namespace Deliverist\Downloader;
 
 
-	interface IDownloader
+	interface Downloader
 	{
 		/**
 		 * @return string

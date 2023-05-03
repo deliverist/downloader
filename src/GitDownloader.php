@@ -7,7 +7,7 @@
 	use Nette\Utils\FileSystem;
 
 
-	class GitDownloader implements IDownloader
+	class GitDownloader implements Downloader
 	{
 		/** @var string */
 		private $url;
