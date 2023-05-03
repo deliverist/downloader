@@ -20,8 +20,8 @@
 
 
 		/**
-		 * @param  string
-		 * @param  string
+		 * @param  string $url
+		 * @param  string $branch
 		 */
 		public function __construct($url, $branch)
 		{
@@ -31,7 +31,7 @@
 
 
 		/**
-		 * @param  string
+		 * @param  string $gitExecutable
 		 * @return self
 		 */
 		public function setGitExecutable($gitExecutable)
@@ -51,7 +51,7 @@
 
 
 		/**
-		 * @param  string
+		 * @param  string $directory
 		 * @return void
 		 * @throws GitDownloaderException
 		 */

@@ -12,7 +12,7 @@
 
 
 		/**
-		 * @param  string
+		 * @param  string $directory
 		 * @return void
 		 * @throws Exception
 		 */
