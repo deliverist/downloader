@@ -16,7 +16,7 @@
 composer require deliverist/downloader
 ```
 
-`Deliverist\Downloader` requires PHP 5.6 or later.
+`Deliverist\Downloader` requires PHP 8.0 or later.
 
 
 ## Usage
